@@ -1,0 +1,64 @@
+html,body{
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+  
+body{
+    background-color: #EDEDED;
+}
+.top-section{
+    height:20vh;
+    display: flex;
+    justify-content: space-between;
+}
+.image{
+    border-radius: 20%;
+    box-shadow: 0px 5px 7px rgba(116, 110, 110, 0.96);  
+    height: 100%;
+    transition: 0.4s;
+}
+.image:hover{
+    cursor: pointer;
+    height:25vh;
+}
+.middle-section{
+    height:55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heading{
+    font-family: Passero One;
+    font-size: 25vh;
+    margin:0px;
+}
+nav{
+    display: flex;
+    width: 100vh;
+    justify-content: space-between;
+    border: solid black;
+    border-width: 1px 0px;
+}
+.nav-element{
+    text-decoration: none;
+    color: black;
+    font-family: Passero One;
+    font-size:3vh;
+    padding:1vh;
+    transition:0.15s;
+}
+.nav-element:hover{
+    cursor:pointer;
+    opacity:0.5;
+    font-size:3.5vh;
+    padding:0.5vh;
+}
+.bottom-section{
+    height:20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+ 
