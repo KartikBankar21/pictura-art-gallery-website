@@ -1,4 +1,3 @@
-# pictura-art-gallery-website
 # Pictura Art Gallery Website
 
 Welcome to the **Pictura Art Gallery** website repository! This is a static website built with HTML and CSS, designed to showcase beautiful artworks in an elegant gallery format. The design has been planned using Figma and can be viewed [here on Figma](https://www.figma.com/design/XPaT5HJszpD0mg2iFLKL3g/Brush-and-Beyond?node-id=72-205&node-type=frame).
@@ -26,6 +25,7 @@ Make sure you have [Git](https://git-scm.com/) installed on your system.
 3.Navigate into the project directory:
   ```bash
   cd pictura-art-gallery-website
+  ```
 
 ### Git Workflow
 Below are common Git commands to help you manage your work on the project.
@@ -34,24 +34,26 @@ Below are common Git commands to help you manage your work on the project.
 After making changes to the code, add all modified files to staging:
 ```bash
   git add .
+```
 
 Commit your changes with a descriptive message:
 ```bash
   git commit -m "Describe your changes here"
+```
 
 ###Push Changes to Remote Repository
 To push your changes to the remote repository (GitHub):
 ```bash
   git push origin main
+```
 
 ### Replace main with the branch you are working on if it's not the main branch.
 ### Pull Latest Changes from Remote
 
 If other team members have pushed changes, pull the latest updates:
 ```bash
-
   git pull origin main
-
+```
 By following these steps, you can manage and collaborate on the project effectively.
 
 ### Contributing
